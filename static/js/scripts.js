@@ -14,7 +14,7 @@ $(document).ready(function() {
                 } 
                 else {
                     if (data.sum) {
-                        $('#sum').text('The sum is...' + data.sum + '!').show('slow');
+                        $('#sum').text('The sum is...' + String(data.sum) + '!').show('slow');
                     }
                     else {
                         $('#sum').text('Aha...there\'s no number in the string').show('slow');
