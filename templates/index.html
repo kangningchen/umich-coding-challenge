@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <title>Coding Challenge</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>Hi there!</h1>
+            <p>A simple web app to extract and sum numbers in strings.</p>
+            <form method="POST">
+                <input id="string" type="text" name="string" placeholder="e.g. T65esting11 1"/><br>
+                <input id="submit" type="submit" value="EXTRACT AND SUM"/>
+            </form>
+            <div id="sum"></div>
+        </div>
+    </main>
+</body>
+</html>
