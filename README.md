@@ -2,6 +2,8 @@
 
 A simple Flask app that extracts and sums numbers in strings.
 
+https://knchen-sdf.herokuapp.com/
+
 ## How to Run
 
 1. Clone the repo, navigate inside the cloned project folder through the command line, and create a virtual environment by tying 
